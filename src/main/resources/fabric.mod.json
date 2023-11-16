@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "esreacompat",
+	"version": "${version}",
+	"name": "Expanded Storage + REA Compatibility",
+	"description": "Makes Expanded Storage chests and inventories compatible with Reach Entity Attributes",
+	"authors": [
+		"unilock"
+	],
+	"contact": {
+		"sources": "https://github.com/unilock/ExpandedStorageREACompat"
+	},
+	"license": "MIT",
+	"icon": "assets/esreacompat/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cc.unilock.esreacompat.ExampleMod"
+		]
+	},
+	"mixins": [
+		"esreacompat.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": ">=1.20",
+		"expandedstorage": "*",
+		"reach-entity-attributes": "*"
+	}
+}
