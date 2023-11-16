@@ -1,7 +1,7 @@
 package cc.unilock.esreacompat.mixin;
 
 import com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes;
-import compasses.expandedstorage.impl.block.entity.extendable.OpenableBlockEntity;
+import compasses.expandedstorage.common.block.entity.extendable.OpenableBlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.Constant;
